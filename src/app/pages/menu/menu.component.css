@@ -1,0 +1,30 @@
+.foodbox {
+    padding: 1.5rem .5rem;
+}
+
+.foodbox img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.foodbox h3 {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.buybtn {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border-radius: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    padding: .5rem .5rem;
+}
+
+.buybtn:hover {
+    color: var(--primary-color);
+    background-color: #fff;
+    border: .1rem solid #000;
+}

@@ -1,0 +1,14 @@
+.submitbtn {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border-radius: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    padding: .5rem .5rem;
+}
+
+.submitbtn:hover {
+    color: var(--primary-color);
+    background-color: #fff;
+    border: .1rem solid #000;
+}
